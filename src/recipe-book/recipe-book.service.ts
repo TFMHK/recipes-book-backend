@@ -1,5 +1,4 @@
 import { ForbiddenException, Injectable } from '@nestjs/common';
-import { User } from '@prisma/client';
 import { DatabaseService } from 'src/database/database.service';
 import { CommentDto } from 'src/recipes/dto/comment.dto';
 import { CreateRecipeDto } from 'src/recipes/dto/create-recipe.dto';
